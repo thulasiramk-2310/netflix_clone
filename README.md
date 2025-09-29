@@ -8,16 +8,16 @@ A full-stack Netflix clone built with the MERN stack that replicates core Netfli
 
 ### 🚀 Features
 
--   ⚛️ **Tech Stack:** React.js, Node.js, Express.js, MongoDB, Tailwind CSS
--   🔐 **Authentication:** JWT-based user authentication
--   📱 **Responsive Design:** Works on all device sizes
--   🎬 **Movie/TV Show Catalog:** Browse trending content
--   🔎 **Search Functionality:** Search for movies, TV shows, and actors
--   🎥 **Trailer Streaming:** Watch movie trailers
--   🔥 **Search History:** Track and view search history
--   🐱‍👤 **Similar Content:** Get recommendations based on content
--   💙 **Landing Page:** Beautiful Netflix-style homepage
--   🌐 **Deployment Ready:** Configured for production deployment
+-    **Tech Stack:** React.js, Node.js, Express.js, MongoDB, Tailwind CSS
+-    **Authentication:** JWT-based user authentication
+-    **Responsive Design:** Works on all device sizes
+-    **Movie/TV Show Catalog:** Browse trending content
+-    **Search Functionality:** Search for movies, TV shows, and actors
+-    **Trailer Streaming:** Watch movie trailers
+-    **Search History:** Track and view search history
+-    **Similar Content:** Get recommendations based on content
+-    **Landing Page:** Beautiful Netflix-style homepage
+-    **Deployment Ready:** Configured for production deployment
 
 ## 🛠️ Installation & Setup
 
@@ -51,7 +51,7 @@ Create a `.env` file in the root directory with the following variables:
 PORT=5000
 MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/netflix_db?retryWrites=true&w=majority&appName=netflix
 NODE_ENV=development
-JWT_SECRET=your_super_secret_jwt_key
+JWT_SECRET=your_secret_jwt_key
 TMDB_API_KEY=your_tmdb_api_key
 ```
 
@@ -165,5 +165,3 @@ mern-netflix-clone/
 - [MongoDB Atlas](https://www.mongodb.com/atlas) for database hosting
 - [Netflix](https://netflix.com) for design inspiration
 
-
-### Happy Coding! 🚀
